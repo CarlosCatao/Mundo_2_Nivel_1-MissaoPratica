@@ -1,0 +1,66 @@
+ 
+  /* Características semânticas globais */
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+}
+
+ /* Menu com posicionamento no topo a esquerda */
+.menu {
+    position: absolute;
+    background-color: blue;
+    color: white;
+    top: 10px;
+    left: 0px;
+    padding-left: 20px;
+    font-size: 20px;
+    width: 100%;
+}
+
+/* Formatação para o cabeçalho */
+.cabecalho {
+    text-align: center;
+    font-size: 50px;
+    padding: 270px 20px;   /* espaçamento para centralizar verticalmentar */
+}
+
+/* Formatação para o logotipo */
+.logotipo {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px; /* Space between logo and title */
+  }
+
+ /* Flex container para o logotipo e o cabeçalho */
+ .logo-cabec-container {
+    display: flex;
+    align-items: center; /* Align logo and title vertically */
+    justify-content: center; /* Center the content horizontally */
+}
+
+/* Formatação para o rodape */
+.rodape {
+    text-align: center;
+    background-color: blue;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+/* Formatação para cabeçalhos tipo h1 */
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Formatação para paragrafos */
+p {
+    font-size: 20px;
+    padding-top: 50px;
+}
