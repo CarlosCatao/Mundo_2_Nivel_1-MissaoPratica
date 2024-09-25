@@ -1,3 +1,4 @@
+<!-- Estrutura Básicaq da Página -->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -9,17 +10,40 @@
     <link rel="stylesheet" href="./css/receitas.css">
     <title>Receitas do Carlão</title>
 </head>
+
+<!-- Conteúdo Principal da Página -->
 <body>
-    <!-- Esta div irá conter o Menu -->
+    <<!-- Esta div (container) irá conter o Menu -->
     <div class="menu">
-        MENU
+        <nav class="navbar navbar-expand-lg">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="receitas.html">Receitas</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="cadastro.html#">Cadastro</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </div>
 
+    <!-- Definição do container para as receitas -->
     <div class="tabela_receitas">
+        <!-- Definição do container para uma receita individualment4e -->
         <div class="receita">
             <h2>Palitos de frango com queijo</h2>
             <img src="./images/palito-frango-queijo.jpg" alt="receita 1">            
             <p><strong>Ingredientes:</strong></p>
+            <!-- Lista não ordenada para os ingredientes -->
             <ul style="list-style-type:disc;">
                 <li>300 gramas de filé de peito de frango picadinho (na faca ou processador)</li>
                 <li>Meia colher de sopa de páprica defumada</li>
@@ -30,6 +54,7 @@
                 <li>Sal a gosto</li>
             </ul>
             <p><strong>Modo de Preparo:</strong></p>
+            <!-- Lista ordenada para o modo de preparo -->
             <ol ype="1">
                 <li>Em uma tigela, adicione 300 gramas de filé de peito de
                      frango picadinho na faca ou processador, meia colher 
@@ -50,10 +75,12 @@
             </ol>
         </div>
 
+        <!-- Definição do container para uma receita individualment4e -->
         <div class="receita">
             <h2>Panceta de porco à pururuca</h2>
             <img src="./images/panceta-pururuca.jpg" alt="receita 2">
              <p><strong>Ingredientes:</strong></p>
+            <!-- Lista não ordenada para os ingredientes -->
             <ul style="list-style-type:disc;">
                 <li>1 quilo e 800 gramas de panceta de porco</li>
                 <li>Pimenta-do-reino a gosto</li>
@@ -64,6 +91,7 @@
                    <li>Sal a gosto</li>
             </ul>
             <p><strong>Modo de Preparo:</strong></p>
+            <!-- Lista ordenada para o modo de preparo -->
             <ol ype="1">
                 <li>Em cima de uma tábua, tempere a panceta de porco com páprica
                      defumada, sal, pimenta-do-reino e azeite. Misture bem com as
@@ -84,10 +112,12 @@
             </ol>
         </div>
 
+        <!-- Definição do container para uma receita individualment4e -->
         <div class="receita">
             <h2>Sanduiche de camarão com abacaxi</h2>
             <img src="./images/sanduiche-de-camarao-com-abacaxi.jpg" alt="receita 3">
             <p><strong>Ingredientes:</strong></p>
+            <!-- Lista não ordenada para os ingredientes -->
             <ul style="list-style-type:disc;">
                 <li>12 camarões grandes limpos, sem casca e sem cabeça</li>
                 <li>Sal a gosto</li>
@@ -96,6 +126,7 @@
                 <li>1 litros de óleo de girassol</li>
             </ul>
             <p><strong>Modo de Preparo:</strong></p>
+            <!-- Lista ordenada para o modo de preparo -->
             <ol ype="1">
                 <li>Comece fazendo a massa de tempurá misturando todos ingredientes
                      com auxílio de um fouet e leve para geladeira para descansar por
@@ -120,6 +151,8 @@
         </div>
     </div>
 </body>
+
+<!--Rodapé -->
 <footer class="rodape">
     ©Carlos 2024
 </footer>

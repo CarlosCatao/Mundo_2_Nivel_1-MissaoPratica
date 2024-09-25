@@ -1,0 +1,123 @@
+<!-- Estrutura Básicaq da Página -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receitas do Carlão</title>
+    <!-- inserido por determinação do Framework Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/formatos.css">
+</head>
+
+<!-- Conteúdo Principal da Página -->
+<body>
+    <!-- Esta div (container) irá conter o Menu -->
+    <div class="menu">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="receitas.html">Receitas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="cadastro.html">Cadastro</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Esta container Bootstrap) irá conter o Formulário de Cadastramento -->
+    <main class="container-fluid formulario">
+        <div class="row justify-content-left">
+            <div class="col-md-6 formtitulo">
+                <h2 class="text-left">Efetue seu Cadastro</h2>
+                <form action="mailto:carlos.altomare@gmail.com" method="POST" enctype="text/plain">
+                </form>
+            </div>
+        </div>
+        <div class="row justify-content-left">
+            <div class="col-md-12">           
+                <form class="form-horizontal">
+                <div class="form-row align-items-center">
+                    <label for="nome" class="col-md-1 col-form-label formlabel">Nome:</label>
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" id="nome" required placeholder="Digite seu Nome">
+                    </div>
+                </div>
+                
+                <div class="form-row align-items-center mt-3">
+                    <label for="email" class="col-md-1 col-form-label formlabel">E-mail:</label>
+                    <div class="col-md-4">
+                        <input type="email" class="form-control" id="email" required placeholder="Digite seu E-mail">
+                    </div>
+                </div>
+
+                <div class="form-row align-items-center mt-3">
+                    <label for="cep" class="col-md-1 col-form-label formlabel">CEP:</label>
+                    <div class="col-md-1">
+                        <input type="text" class="form-control" id="cep" required placeholder="Digite seu CEP">
+                    </div>
+                </div>
+
+                <div class="form-row align-items-center mt-3">
+                    <label for="rua" class="col-md-1 col-form-label formlabel">Rua:</label>
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" id="rua" required placeholder="Digite sua Rua">
+                    </div>
+                </div>
+
+                <div class="form-row align-items-center mt-3">
+                    <label for="numero" class="col-md-1 col-form-label formlabel">Número:</label>
+                    <div class="col-md-2">
+                        <input type="text" class="form-control" id="numero" required placeholder="Número">
+                    </div>
+
+                    <label for="complemento" class="col-md-2 col-form-label formcomplemento">Complemento:</label>
+                    <div class="col-md-2">
+                        <input type="text" class="form-control" id="complemento" placeholder="Complemento (opcional)">
+                    </div>
+                </div>
+
+                <div class="form-row align-items-center mt-3">
+                    <label for="cidade" class="col-md-1 col-form-label formlabel">Cidade:</label>
+                    <div class="col-md-2">
+                        <input type="text" class="form-control" id="cidade" required placeholder="Digite a Cidade">
+                    </div>
+
+                    <label for="estado" class="col-md-1 col-form-label formlabel formcomplemento">UF:</label>
+                    <div class="col-md-2">
+                        <input type="text" class="form-control" id="estado" required placeholder="Digite o Estado">
+                    </div>
+                    <div class="col-md-2">
+                        <button type="submit" class="btn btn-dark">Cadastrar</button>
+                    </div>
+                </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <div class="completatela">
+        <p> </p>
+    </div>
+    
+    <!-- inserido por determinação do Framework Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+<!--Rodapé -->
+<footer class="rodape">
+    ©Carlos 2024
+</footer>
+</html>

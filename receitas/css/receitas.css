@@ -1,9 +1,5 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
+/* Formatação do container das receitas */
 .tabela_receitas {
     display: flex;
     flex-direction: row;
@@ -12,11 +8,12 @@
     width: 100%;
     height: 700px;
     overflow: auto;
-    padding-top: 5px;
+    padding-top: 0;
     background-color: blue;
-    margin-top: 40px;
+    margin-top: 0;
 }
 
+/* Formatação das colunas do container das receitas */
 .receita {
     background-color: white;
     border: 1px solid #ccc;
@@ -29,12 +26,14 @@
     overflow: auto;
 }
 
+/* Formatação da área da imagem da receitas */
 .receita img {
     max-width: 100%;
     height: auto;
     border-radius: 5px;
 }
 
+/* Formatação dos paragrafos de ingredientes e modo de preparo */
 .receita p {
     text-align:left;
     padding-bottom: 0;
@@ -42,6 +41,7 @@
     margin-top:0;
 }
 
+/* Formatação da lista não ordenada dos ingredientes */
 .receita ul {
     text-align:justify;
     padding-bottom: 5px;
@@ -49,6 +49,7 @@
     margin-bottom:0;
 }
 
+/* Formatação da lista ordenada do modo de preparo */
 .receita ol {
     text-align:justify;
     padding-bottom: 5px;
