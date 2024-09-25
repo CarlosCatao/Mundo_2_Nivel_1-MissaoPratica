@@ -5,26 +5,17 @@
     box-sizing: border-box;
 }
 
-  /* Características semânticas do body */
-  body {
-    margin: 0;
-    padding: 0;
+/* Características semânticas do body */
+body {
     font-family: Arial, sans-serif;
     background-color: white;
     color: black;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
 }
 
- /* Menu com posicionamento no topo a esquerda */
+ /* Menu */
 .menu {
     background-color: blue;
     color: white;
-/*    padding-left: 20px;*/
-    font-size: 20px;
-    width: 100%;
-    height: 60px;
 }
 
 /* Formatação da Área Central */
@@ -41,14 +32,14 @@
 .logotipo {
     width: 50px;
     height: 50px;
-    margin-right: 20px; /* Space between logo and title */
+    margin-right: 20px;
   }
 
  /* Flex container para o logotipo e o cabeçalho */
  .logo-cabec-container {
     display: flex;
-    align-items: center; /* Align logo and title vertically */
-    justify-content: center; /* Center the content horizontally */
+    align-items: center;
+    justify-content: center;
 }
 
 /* Formatação para o rodape */
@@ -121,6 +112,7 @@ p {
     padding-left: 0;
 }
 
+/* Formatação completar o bacground entre receitas e rodape */
 .completatela {
     width: 100%;
     height: 9vh;
