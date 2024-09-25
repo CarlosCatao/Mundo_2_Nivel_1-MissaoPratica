@@ -71,8 +71,7 @@ O código está organizado de forma modular, com separação entre a estrutura *
 <br>
 <img src="./receitas/images/HTML.png" align="left" height="25px" />:  Para a estruturação das páginas.<br>
 <img src="./receitas/images/CSS.png" align="left" height="25px" />:  Para a estilização e layout das páginas.<br>
-
-<img src="./receitas/images/Bootstrap.png" align="left" height="25px" />:  Bootstrap 4.1.3.: Para facilitar o design responsivo e garantir que o site seja amigável em dispositivos móveis.<br>
+<img src="./receitas/images/Bootstrap.png" align="left" height="25px" />:  Bootstrap 4.1.3 para facilitar o design *responsivo* e garantir que o site seja amigável em dispositivos móveis.<br>
 <img src="./receitas/images/VisualStudio-Dark.png" align="left" height="25px" />: Editor de código utilizado no desenvolvimento.<br>
 <img src="./receitas/images/Github-Dark.png" align="left" height="25px" />: Para armazenamento dos códigos e controle de versões.<br>
 
